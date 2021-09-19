@@ -1,0 +1,58 @@
+.transaction_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.transaction_text{
+    width: 312px;
+}
+
+input{
+    width: 296px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border: 1px solid grey;
+}
+
+input:focus{
+    outline: none;
+}
+
+.transaction_button{
+    width: 312px;
+    margin-top: 10px;
+}
+
+.button{
+    background-color: #4caf50;
+    color: white;
+    width: 100%;
+    border: 1px solid #4caf50;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+    .transaction_text{
+        width: 500px;
+    }
+
+    input{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .transaction_text{
+        width: 312px;
+    }
+
+    input{
+        width: 296px;
+    }
+}

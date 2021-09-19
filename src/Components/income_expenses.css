@@ -1,0 +1,63 @@
+.incomeexp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.income_container{
+    background-color: white;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 312px;
+}
+
+.incomeexp_container_1{
+    width: 156px;
+    text-align: center;
+    border-right: 1px solid grey;
+}
+
+.incomeexp_container_1 p{
+    color: greenyellow;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.incomeexp_container_2{
+    width: 156px;
+    text-align: center;
+}
+
+.incomeexp_container_2 p{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    .income_container{
+        width: 500px;
+    }
+
+    .incomeexp_container_1{
+        width: 250px;
+    }
+
+    .incomeexp_container_2{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .income_container{
+        width: 312px;
+    }
+
+    .incomeexp_container_1{
+        width: 156px;
+    }
+
+    .incomeexp_container_2{
+        width: 156px;
+    }
+}
